@@ -10,3 +10,8 @@ You are also given an array queries where queries[j] = [uj, vj]. For the jth que
 
 Return a boolean array answer, where answer[j] is the answer to the jth query.
 
+![Course Schedule IV](example.JPG?raw=true)
+
+
+# References :
+https://www.youtube.com/watch?v=oNI0rf2P9gE (Abdul Bari, Floyd Warshall All Pairs Shortest Path Algorithm)
