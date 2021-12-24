@@ -12,7 +12,7 @@ Return a boolean array answer, where answer[j] is the answer to the jth query.
 
 ![Course Schedule IV](example.JPG?raw=true)
 
-# Implementation : Floyd Warshall Algorithm
+# Implementation : Floyd Warshall Algorithm O(n^3)
 ```java
 class Solution {
     public List<Boolean> checkIfPrerequisite(int n, int[][] prerequisites, int[][] queries) {
@@ -32,4 +32,6 @@ class Solution {
 ```
 
 # References :
-https://www.youtube.com/watch?v=oNI0rf2P9gE (Abdul Bari, Floyd Warshall All Pairs Shortest Path Algorithm)
+https://www.youtube.com/watch?v=oNI0rf2P9gE (Abdul Bari, Floyd Warshall : All Pairs Shortest Path Algorithm)
+
+https://leetcode.com/problems/course-schedule-iv/discuss/660509/JavaPython-FloydWarshall-Algorithm-Clean-code-O(n3)
